@@ -1,3 +1,1 @@
-### School assignment
-
 This is the first website I ever created...
