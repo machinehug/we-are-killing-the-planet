@@ -1,0 +1,166 @@
+/*Website by Victoria Charlotte Pettersen > github.com/machinehug & machinehug.com*/
+
+/* ==========================================================================
+   GLOBAL
+   ==========================================================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+
+:root {
+    --body-font: 'Playfair Display', serif;
+    --title-font: 'Lato', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    font-size: 1.4rem;
+    font-family: var(--body-font);
+}
+
+/* ==========================================================================
+         HOME
+         ==========================================================================*/
+
+.home-wrapper {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    font-family: var(--title-font);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+}
+
+.title-wrapper {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    line-height: 180%;
+    /*no user select in Chrome and Opera*/
+    user-select: none;
+    /*no user select in Safari*/
+    -webkit-user-select: none;
+    /*no user select in Firefox*/
+    -moz-user-select: none;
+    /*no user select in IE/Edge*/
+    -ms-user-select: none;
+}
+
+.title-small {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.title-red {
+    color: red;
+    font-size: 2.2rem;
+    letter-spacing: 0.2rem;
+}
+
+.title-arrow {
+    width: 100%;
+    font-size: 1rem;
+}
+
+/* ==========================================================================
+         NAV
+         ==========================================================================*/
+
+nav {
+    padding: 0;
+    font-size: 1rem;
+    letter-spacing: 0.2rem;
+    line-height: 1.7;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav a:hover {
+    text-decoration: line-through;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.article-nav {
+    font-size: 0.9rem;
+}
+
+/* ==========================================================================
+         ARTICLES
+         ==========================================================================*/
+
+.article-wrapper {
+    padding: 0 1rem;
+}
+
+section {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    border-bottom: dashed 1px;
+    padding-top: 0.7rem;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+}
+
+img {
+    width: 2.5rem;
+    height: 100%;
+}
+
+section h1 {
+    margin: 0;
+    padding: 0.4rem 0;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+article {
+    line-height: 1.65;
+}
+
+p {
+    font-size: 0.7rem;
+}
+
+.article-larger-text {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+/* ==========================================================================
+         FOOTER
+         ==========================================================================*/
+
+footer {
+    font-size: 0.6rem;
+}
+
+footer a {
+    color: rgba(255, 0, 0, 0.507);
+}
+
+.article-footer {
+    text-align: center;
+    padding: 1rem 0;
+
+}
